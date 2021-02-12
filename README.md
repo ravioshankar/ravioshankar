@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+🔭 I’m currently working on Web application development using frameworks like Angular, React etc..
+📫 How to reach me: you can find me on Twitter/LinkedIn/Github @ravioshankar    
+
 <!--
 **ravioshankar/ravioshankar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
