@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on Web application development using frameworks like Angular, React etc..
+- 🔭 I’m currently working on Web application development using frameworks like Angular, React and api's using spring boot, nodejs etc..
+- 🤔 I’m looking for help with https://gisgurus.web.app/spatial-toolkit feature development 
 - 📫 How to reach me: you can find me on Twitter/LinkedIn/Github @ravioshankar    
 
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/ravioshankar.svg?style=social&label=Follow%20ravioshankar)](https://twitter.com/ravioshankar)
