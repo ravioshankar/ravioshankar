@@ -6,7 +6,7 @@
 - 🌱 I’m currently practicing cloud architect skills
 - 📫 How to reach me: you can find me on Twitter/LinkedIn/Github @ravioshankar    
 
-![Personal Development](./personal-development-plan.drawio.svg)
+<!-- ![Personal Development](./personal-development-plan.drawio.svg) -->
 
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/ravioshankar.svg?style=social&label=Follow%20ravioshankar)](https://twitter.com/ravioshankar)
 
