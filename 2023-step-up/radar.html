@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salary Comparison Radar Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="myChart"></canvas>
+  <script>
+    // User input - Set 1
+    const citySalarySet1 = {
+      'Chicago': 90000,
+      'DC': 120000,
+      'NYC': 150000,
+      'Miami': 120000,
+      'SF': 210000
+    };
+
+    // User input - Set 2
+    const citySalarySet2 = {
+      'Chicago': 80000,
+      'DC': 110000,
+      'NYC': 177000,
+      'Miami': 95000,
+      'SF': 300000
+    };
+
+    // Extracting data for x and y axis
+    const labels = Object.keys(citySalarySet1);
+    const data1 = Object.values(citySalarySet1);
+    const data2 = Object.values(citySalarySet2);
+
+    // Creating radar chart
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Set 1',
+          data: data1,
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1
+        }, {
+          label: 'Set 2',
+          data: data2,
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scale: {
+          ticks: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
