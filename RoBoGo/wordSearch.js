@@ -1,10 +1,38 @@
+<<<<<<< HEAD
+/**  Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+*/
+=======
 /**
  * @param {character[][]} board
  * @param {string} word
  * @return {boolean}
  */
 function exist(board, word) {
+>>>>>>> e3b7a3e0fb3f479d4b24cc6fa8bf25e827e5ab26
 
+<<<<<<< HEAD
+
+/**
+ * @param {character[][]} board
+ * @param {string} word
+ * @return {boolean}
+ */
+var exist = function(board, word) {
+
+
+    for(let i = 0; i < board[0].length; i++) {
+        
+    }
+
+};
+
+
+/**
+ * Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+Output: true
+ */
+=======
 
     function explore(r,c,p) {
     
@@ -55,3 +83,5 @@ const word = 'AAB';
 const board1 = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word1 = "ABCB";
 
 console.log(exist(board1, word1))
+
+>>>>>>> e3b7a3e0fb3f479d4b24cc6fa8bf25e827e5ab26
