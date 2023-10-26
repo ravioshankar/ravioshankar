@@ -38,29 +38,7 @@ var maxProfit = function (prices) {
 };
 
 
-var checkArraySortedOrNot = function (array) {
-
-  if ((array.length === 0 || array.length === 1)) {
-    return true;
-  }
-  let first;
-  let second;
-  for (let index = 0; index < array.length - 1; index++) {
-    first = array[index];
-    let next = index + 1
-    second = array[next];
-
-    if (!(first >= second)) {
-      return false;
-    }
-  }
-
-
-  return true;
-}
 
 
 
-// console.log(" final result ",checkArraySortedOrNot([5,4,3,2,1]));
-
-console.log('Max profit is ', maxProfit([5, 3, 8, 5, 1, 8]));
+console.log('Max profit is ', maxProfit([7, 1, 5, 3, 6, 4]));

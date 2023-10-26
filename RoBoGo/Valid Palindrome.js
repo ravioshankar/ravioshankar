@@ -16,7 +16,9 @@ var isPalindrome = function (s) {
 
   let updatedText = s.toLowerCase().replaceAll(/[^a-z0-9]/g, "");
 
-  let i = 0;
+  /**
+   *  This is worst case
+   let i = 0;
   let j = updatedText.length - 1;
 
   while (i <= j) {
@@ -27,9 +29,10 @@ var isPalindrome = function (s) {
       return false;
     }
   }
-
-
   return true;
+   */
+  
+  return updatedText === updatedText.split('').reverse().join('');
 };
 
 console.log(isPalindrome("A man, a plan, a canal: Panama"));
