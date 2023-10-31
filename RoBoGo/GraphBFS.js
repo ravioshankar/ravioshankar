@@ -1,12 +1,11 @@
 
 
 
-function bredthFirst(graph: any, startingNode: string) {
+function bredthFirst(graph, startingNode) {
 
 const queue = [startingNode];
 while(queue.length > 0){
     const current = queue.shift();
-    console.log(current);
     if(current)
     for(let neighbor of graph[current] ){
         queue.push(neighbor);

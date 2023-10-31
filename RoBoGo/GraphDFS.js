@@ -1,6 +1,6 @@
  
 
-function depthFirstPrint(graph: any, startingNode: string) {
+function depthFirstPrint(graph, startingNode) {
 
     const stack = [startingNode];
 
@@ -15,7 +15,7 @@ function depthFirstPrint(graph: any, startingNode: string) {
 }
 
 
-function depthFirstRecurrsive(graph: any, startingNode: string) {
+function depthFirstRecurrsive(graph, startingNode) {
     console.log(startingNode);
     for(let neighbor of graph[startingNode]){
         depthFirstRecurrsive(graph, neighbor);
